@@ -1,0 +1,22 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'id.sanzz.kiperreflek'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'id.sanzz.kiperreflek'
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
